@@ -8,3 +8,7 @@ This is the default job, including a template that can be used to create new job
 ## Where can I find these works in the script?
 
 pls_companies/jobs/
+
+
+## You want know more?
+Check https://docs.polisek.io
