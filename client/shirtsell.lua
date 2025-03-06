@@ -26,7 +26,7 @@ BRIDGE.AddSphereTarget({
                 if not input then return end
                 else
                     BRIDGE.Notify( {
-                        title = locales("script_title"),
+                        title = locale("script_title"),
                         description = locale("jobs_your_company_cant_do_this"),
                         type = 'inform'
                     })

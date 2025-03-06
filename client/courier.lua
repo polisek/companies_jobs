@@ -94,7 +94,7 @@ BRIDGE.AddSphereTarget({
                     GenerateJob()
                 else
                     BRIDGE.Notify( {
-                        title = locales("script_title"),
+                        title = locale("script_title"),
                         description = locale("jobs_your_company_cant_do_this"),
                         type = 'inform'
                     })
@@ -113,7 +113,7 @@ BRIDGE.AddSphereTarget({
                     TriggerSecureEvent("pls_companies:server:jobCourier:takeBalikos")
                 else
                     BRIDGE.Notify( {
-                        title = locales("script_title"),
+                        title = locale("script_title"),
                         description = locale("jobs_your_company_cant_do_this"),
                         type = 'inform'
                     })
